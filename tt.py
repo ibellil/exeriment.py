@@ -12,5 +12,11 @@ st.write(
       'B': [5, 6, 7, 8]
     })
 )
+st.title("Welcome to Streamlit! Select Box")
 
+selectbox = st.selectbox(
+    "Select yes or no",
+    ["Yes", "No"]
+)
+st.write(f"You selected {selectbox}")
 
